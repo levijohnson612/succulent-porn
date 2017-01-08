@@ -5,7 +5,7 @@ import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 
-import routes from './routes/index';
+import routes from './routes/succulents';
 
 const app = express();
 
